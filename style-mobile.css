@@ -1,0 +1,203 @@
+@media (max-width: 640px) {
+    .first-screen .center {
+        width: 100%;
+    }
+
+    .first-screen .blockSlogan h1 {
+        width: 100%;
+        font-size: 30px;
+        line-height: normal;
+    }
+
+    .first-screen .center .blockLogo img {
+        width: 40px;
+        height: 40px;
+        margin-top: 20px;
+    }
+
+    .first-screen .blockLogo {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .two-screen {
+        width: 100%;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .two-screen div {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .two-screen h1 {
+        font-size: 45px;
+        line-height: normal;
+    }
+
+    .two-screen p {
+        font-size: 26px;
+        line-height: normal;
+    }
+
+    .three-screen {
+        width: 100%;
+    }
+
+    .three-screen .block-cart {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .three-screen .block-cart .cart {
+        width: 95%;
+        margin-top: 20px;
+    }
+
+    .three-screen .block-cart .cart img {
+        width: 100%;
+    }
+
+    .fore-screen .center {
+        width: 100%;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        gap: 20px;
+    }
+
+    .fore-screen {
+        height: auto;
+        
+    }
+
+    .fore-screen .center h1 {
+        font-size: 25px;
+        line-height: normal;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .fore-screen .center p {
+        font-size: 20px;
+        line-height: normal;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .seven-screen .center .title h1 {
+        font-size: 25px;
+    }
+
+    .questions .question h1 {
+        font-size: 20px;
+    }
+
+    .questions .question h1 img {
+        margin-left: 15px;
+    }
+
+    .questions .question p {
+        margin-left: 15px;
+    }
+
+    .eight-screen .center .part {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .night-screen .center .title h1 {
+        font-size: 25px;
+    }
+
+    .night-screen .center {
+        width: 100%;
+    }
+
+    .night-screen .body {
+        flex-direction: column;
+    }
+
+    .night-screen .block > p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .ten-screen .center {
+        width: 100%;
+    }
+
+    .ten-screen .body {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer .center {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .five-screen .center {
+        width: 100%;
+    }
+
+    .five-screen .center .carts {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1110px) {
+    .center,
+    .two-screen,
+    .three-screen {
+        width: 100% !important;
+    }
+
+    .three-screen .block-cart,
+    .night-screen .body {
+        flex-wrap: wrap;
+    }
+
+    .first-screen .blockLogo {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .fore-screen .center {
+        justify-content: space-around;
+    }
+
+    .five-screen .center .carts {
+        justify-content: center;
+    }
+
+    .questions {
+        margin-left: 20px;
+    }
+
+    .eight-screen .center .part {
+        justify-content: space-around;
+    }
+
+    .night-screen .body {
+        justify-content: center;
+    }
+
+    .ten-screen {
+        width: 100%;
+    }
+
+    .ten-screen .body {
+        justify-content: space-around;
+    }
+
+    .footer .center {
+        justify-content: space-around;
+    }
+}

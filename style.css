@@ -1,0 +1,458 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+* {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+}
+
+.first-screen {
+    background-image: url(img/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.first-screen .center {
+    width: 1110px;
+}
+
+.first-screen .blockLogo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-screen .center .blockLogo img {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.first-screen .blockSlogan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-screen .blockSlogan h1 {
+    width: 734px;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.first-screen .blockSlogan p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.two-screen {
+    width: 1110px;
+    height: 260px;
+    background: #F7F7F7;
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.two-screen h1, .two-screen p, .two-screen span {
+    margin: 0;
+    font-weight: 500;
+    text-align: center;
+}
+
+.two-screen h1 {
+    font-size: 72px;
+    line-height: 107px;
+    color: #F7654A;
+}
+
+.two-screen p {
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.two-screen span {
+    font-size: 18px;
+    line-height: 27px;
+    color: #999999;
+}
+
+.three-screen {
+    width: 1110px;
+    margin-top: 100px;
+}
+
+.three-screen h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.three-screen .block-cart {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.three-screen .block-cart .cart{
+    width: 350px;
+}
+
+.three-screen .block-cart .cart img {
+    width: 350px;
+    height: 380px;
+}
+
+.three-screen .block-cart .cart h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #404149;
+}
+
+
+.three-screen .block-cart .cart p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+}
+
+.fore-screen {
+    width: 100%;
+    height: 181px;
+    background: #F7654A;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.fore-screen .center {
+    width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fore-screen .center h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.fore-screen .center p {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.fore-screen .center button {
+    width: 175px;
+    height: 49px;
+    background: #FFFFFF;
+    background-image: url(img/iconBtn.png);
+    background-repeat: no-repeat;
+    background-position: 30px 16px;
+    border: 0;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px; 
+    letter-spacing: 0.05em;
+    padding-left: 30px;
+}
+
+
+.five-screen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.five-screen .center {
+    width: 1110px;
+}
+
+.five-screen .center .title h1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+}
+
+.five-screen .center .carts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 66px;
+}
+
+.five-screen .center .carts .block {
+    width: 350px;
+    height: 250px;
+    background: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.five-screen .center .carts .block p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.six-screen {
+    margin-top: 150px;
+    width: 100%;
+    height: 814px;
+    background-image: url(img/Rectangle4.png);
+}
+
+.seven-screen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.seven-screen .center {
+    width: 1110px;
+}
+
+.seven-screen .center .title h1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    margin-top:150px;
+}
+
+.questions .question h1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F7654A;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.questions .question h1 img {
+    margin-right: 15px;
+    transform: rotate(0deg);
+    transition: .5s;
+}
+
+.questions .question p {
+    margin: 0;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px; 
+    color: #999999;
+}
+
+.questions .question {
+    overflow: hidden;
+    max-height: 30px;
+    transition: 1s;
+    margin-bottom: 40px;
+}
+
+.questions .question:hover {
+    max-height: 500px;
+}
+
+.questions .question:hover img {
+    transform: rotate(90deg);
+}
+
+.questions {
+    margin-bottom: 150px;
+}
+
+
+.eight-screen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #404149;
+}
+
+.eight-screen .center {
+    width: 1110px;
+}
+
+.eight-screen .center .title h1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin-top:100px;
+}
+
+.eight-screen .center .part {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.night-screen .center {
+    width: 1110px;
+}
+
+.night-screen .center .title h1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #030303;
+    text-align: center;
+    margin-top:100px;
+}
+
+.night-screen .cart {
+    background: #F7F7F7;
+    padding: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px; 
+    color: #999999;
+    width: 290px;
+}
+
+.night-screen .block p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.night-screen .block p span {
+    color: #F7654A;
+}
+
+.night-screen .body {
+    margin-top: 64px;
+    display: flex;
+    gap: 30px;
+}
+
+.ten-screen .center {
+    width: 1110px;
+}
+
+.ten-screen .center .title h1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #030303;
+    text-align: center;
+}
+
+.ten-screen .cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ten-screen .cart h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #999999;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.ten-screen .cart p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.ten-screen .cart p span {
+    color: #F7654A;
+}
+
+.ten-screen .body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.footer {
+    width: 100%;
+    background: #404149;
+    height: 82px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .center {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .center div {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
